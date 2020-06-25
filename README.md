@@ -1,6 +1,6 @@
-# Django Project
-Framework- Django, Language- Python
-This project create tables, write dummy data in database and fetch those data and dispalay in json format using API, 
+<h4>Django Project</h4>
+Framework- Django, Language- Python\
+This project create tables, write dummy data in database and fetch those data and dispalay in json format using API, <br/>
 "trydjango" is the django files folder name
 'user_activities' is the app name 
 Created two models named ActivityPeriods and Users
