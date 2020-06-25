@@ -4,6 +4,8 @@ This project create tables, write dummy data in database and fetch those data an
 "trydjango" is the django files folder name
 'user_activities' is the app name 
 Created two models named ActivityPeriods and Users
+http://127.0.0.1:8000/sendjson/ is the API url to display the fetched data in json format
+status of django project - actively working
 
 # Commands used to populate data into database
 from user_activities.models import Users, ActivityPeriods
@@ -17,7 +19,4 @@ activity_id.save()
 user_id = Users(real_name="Glinda Southgood", time_zone="AMERICA")
 user_id.save()
 user_id.activity.add(activity_id)
-
-http://127.0.0.1:8000/sendjson/ is the API url to display the fetched data in json format
-status of django project - actively working
 
